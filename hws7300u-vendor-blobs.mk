@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/huawei/hws7300u/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
   vendor/huawei/hws7300u/proprietary/lib/libgpsone_bit_api.so:system/lib/libgpsone_bit_api.so \
-  vendor/huawei/hws7300u/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/huawei/hws7300u/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
   vendor/huawei/hws7300u/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
   vendor/huawei/hws7300u/proprietary/lib/hw/lcd.default.so:system/lib/hw/lcd.default.so \
@@ -189,10 +188,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/etc/sn.txt:system/etc/sn.txt \
   vendor/huawei/hws7300u/proprietary/etc/mtab:system/etc/mtab \
   vendor/huawei/hws7300u/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-  vendor/huawei/hws7300u/proprietary/etc/permissions/com.blockbuster.lib.tab.hua.xml:system/etc/permissions/com.blockbuster.lib.tab.hua.xml \
-  vendor/huawei/hws7300u/proprietary/etc/permissions/com.qualcomm.location.quipslib.xml:system/etc/permissions/com.qualcomm.location.quipslib.xml \
-  vendor/huawei/hws7300u/proprietary/etc/permissions/huawei.software.srs_trumedia.xml:system/etc/permissions/huawei.software.srs_trumedia.xml \
-  vendor/huawei/hws7300u/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
   vendor/huawei/hws7300u/proprietary/etc/coulometer/bq27510_version:system/etc/coulometer/bq27510_version \
   vendor/huawei/hws7300u/proprietary/etc/coulometer/bq27510_pro.dffs:system/etc/coulometer/bq27510_pro.dffs \
   vendor/huawei/hws7300u/proprietary/etc/coulometer/bq27510_pro.bqfs:system/etc/coulometer/bq27510_pro.bqfs \
