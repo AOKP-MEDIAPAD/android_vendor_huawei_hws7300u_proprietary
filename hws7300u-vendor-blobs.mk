@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/hws7300u/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/huawei/hws7300u/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/huawei/hws7300u/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/huawei/hws7300u/proprietary/lib/libv8.so:obj/lib/libv8.so
+	vendor/huawei/hws7300u/proprietary/lib/libv8.so:obj/lib/libv8.so \
+	vendor/huawei/hws7300u/proprietary/lib/libbluedroid.so:obj/lib/libbluedroid.so
 
 PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -180,11 +181,13 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/lib/helix/rv40.so:system/lib/helix/rv40.so \
   vendor/huawei/hws7300u/proprietary/lib/helix/wmv8.so:system/lib/helix/wmv8.so \
   vendor/huawei/hws7300u/proprietary/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
+  vendor/huawei/hws7300u/proprietary/etc/bluetooth/BCM4329B1_37.4M.hcd:system/etc/bluetooth/BCM4329B1_37.4M.hcd \
+  vendor/huawei/hws7300u/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
+  vendor/huawei/hws7300u/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+  vendor/huawei/hws7300u/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
   vendor/huawei/hws7300u/proprietary/etc/audio_cal.acdb:system/etc/audio_cal.acdb \
   vendor/huawei/hws7300u/proprietary/etc/audio_cal_bs300.acdb:system/etc/audio_cal_bs300.acdb \
   vendor/huawei/hws7300u/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
-  vendor/huawei/hws7300u/proprietary/etc/bluetooth/BCM4329B1_37.4M.hcd:system/etc/bluetooth/BCM4329B1_37.4M.hcd \
-  vendor/huawei/hws7300u/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
   vendor/huawei/hws7300u/proprietary/etc/sn.txt:system/etc/sn.txt \
   vendor/huawei/hws7300u/proprietary/etc/mtab:system/etc/mtab \
   vendor/huawei/hws7300u/proprietary/etc/thermald.conf:system/etc/thermald.conf \
