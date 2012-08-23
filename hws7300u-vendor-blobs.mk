@@ -19,8 +19,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/hws7300u/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/huawei/hws7300u/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/huawei/hws7300u/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/huawei/hws7300u/proprietary/lib/libv8.so:obj/lib/libv8.so \
-	vendor/huawei/hws7300u/proprietary/lib/libbluedroid.so:obj/lib/libbluedroid.so
+	vendor/huawei/hws7300u/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -46,10 +45,12 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/huawei/hws7300u/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/huawei/hws7300u/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/huawei/hws7300u/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/huawei/hws7300u/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/huawei/hws7300u/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/huawei/hws7300u/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/huawei/hws7300u/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/huawei/hws7300u/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/huawei/hws7300u/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/huawei/hws7300u/proprietary/bin/qmiproxy:system/bin/qmiproxy \
   vendor/huawei/hws7300u/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -126,6 +127,9 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/etc/firmware/t1320_tm1885_004.img:system/etc/firmware/t1320_tm1885_004.img \
   vendor/huawei/hws7300u/proprietary/etc/firmware/s7020_suc.img:system/etc/firmware/s7020_suc.img \
   vendor/huawei/hws7300u/proprietary/etc/firmware/atmel_cmi_pro.img:system/etc/firmware/atmel_cmi_pro.img \
+  vendor/huawei/hws7300u/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+  vendor/huawei/hws7300u/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+  vendor/huawei/hws7300u/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
   vendor/huawei/hws7300u/proprietary/etc/sar/sar_302U.conf:system/etc/sar/sar_302U.conf \
   vendor/huawei/hws7300u/proprietary/etc/sar/303U_NV.bin:system/etc/sar/303U_NV.bin \
   vendor/huawei/hws7300u/proprietary/etc/sar/sar_303U.conf:system/etc/sar/sar_303U.conf \
@@ -181,13 +185,11 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/hws7300u/proprietary/lib/helix/rv40.so:system/lib/helix/rv40.so \
   vendor/huawei/hws7300u/proprietary/lib/helix/wmv8.so:system/lib/helix/wmv8.so \
   vendor/huawei/hws7300u/proprietary/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
-  vendor/huawei/hws7300u/proprietary/etc/bluetooth/BCM4329B1_37.4M.hcd:system/etc/bluetooth/BCM4329B1_37.4M.hcd \
-  vendor/huawei/hws7300u/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
-  vendor/huawei/hws7300u/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
-  vendor/huawei/hws7300u/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
   vendor/huawei/hws7300u/proprietary/etc/audio_cal.acdb:system/etc/audio_cal.acdb \
   vendor/huawei/hws7300u/proprietary/etc/audio_cal_bs300.acdb:system/etc/audio_cal_bs300.acdb \
   vendor/huawei/hws7300u/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
+  vendor/huawei/hws7300u/proprietary/etc/bluetooth/BCM4329B1_37.4M.hcd:system/etc/bluetooth/BCM4329B1_37.4M.hcd \
+  vendor/huawei/hws7300u/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
   vendor/huawei/hws7300u/proprietary/etc/sn.txt:system/etc/sn.txt \
   vendor/huawei/hws7300u/proprietary/etc/mtab:system/etc/mtab \
   vendor/huawei/hws7300u/proprietary/etc/thermald.conf:system/etc/thermald.conf \
