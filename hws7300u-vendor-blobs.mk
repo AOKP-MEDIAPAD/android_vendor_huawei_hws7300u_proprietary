@@ -125,54 +125,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/hws7300u/proprietary/etc/sar/sar_312U.conf:system/etc/sar/sar_312U.conf \
 	vendor/huawei/hws7300u/proprietary/etc/sar/312U_NV.bin:system/etc/sar/312U_NV.bin \
 	vendor/huawei/hws7300u/proprietary/bin/sar:system/bin/sar \
-	vendor/huawei/hws7300u/proprietary/lib/helix/asxrender.so:system/lib/helix/asxrender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/raac.so:system/lib/helix/raac.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/vidsite.so:system/lib/helix/vidsite.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/rarender.so:system/lib/helix/rarender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/authmgr.so:system/lib/helix/authmgr.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wma9.so:system/lib/helix/wma9.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/smlrender.so:system/lib/helix/smlrender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/cvt1.so:system/lib/helix/cvt1.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/drvc.so:system/lib/helix/drvc.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/vidplin.so:system/lib/helix/vidplin.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/smlfformat.so:system/lib/helix/smlfformat.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/hxdtdriver.so:system/lib/helix/hxdtdriver.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/hxltcolor.so:system/lib/helix/hxltcolor.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/hxmedplyeng.so:system/lib/helix/hxmedplyeng.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/nullrend.so:system/lib/helix/nullrend.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wmv9.so:system/lib/helix/wmv9.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/smplfsys.so:system/lib/helix/smplfsys.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/ramfformat.so:system/lib/helix/ramfformat.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/cook.so:system/lib/helix/cook.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/hxxml.so:system/lib/helix/hxxml.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/hxmedpltfm.so:system/lib/helix/hxmedpltfm.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wmvrender.so:system/lib/helix/wmvrender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/atrc.so:system/lib/helix/atrc.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/hxnetwksvc.so:system/lib/helix/hxnetwksvc.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/rv20.so:system/lib/helix/rv20.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/dtdrplin.so:system/lib/helix/dtdrplin.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/asxff.so:system/lib/helix/asxff.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/rn5auth.so:system/lib/helix/rn5auth.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/drv2.so:system/lib/helix/drv2.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wmaA.so:system/lib/helix/wmaA.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wm9v.so:system/lib/helix/wm9v.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wmarender.so:system/lib/helix/wmarender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/rmfformat.so:system/lib/helix/rmfformat.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/audplin.so:system/lib/helix/audplin.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/sipr.so:system/lib/helix/sipr.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/clntxres.so:system/lib/helix/clntxres.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wmerender.so:system/lib/helix/wmerender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/rv30.so:system/lib/helix/rv30.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/colorcvt.so:system/lib/helix/colorcvt.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/rvrender.so:system/lib/helix/rvrender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/omxv.so:system/lib/helix/omxv.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/ramrender.so:system/lib/helix/ramrender.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/hxsdp.so:system/lib/helix/hxsdp.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/ralf.so:system/lib/helix/ralf.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/asfff.so:system/lib/helix/asfff.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/rv40.so:system/lib/helix/rv40.so \
-	vendor/huawei/hws7300u/proprietary/lib/helix/wmv8.so:system/lib/helix/wmv8.so \
-	vendor/huawei/hws7300u/proprietary/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
 	vendor/huawei/hws7300u/proprietary/etc/audio_cal.acdb:system/etc/audio_cal.acdb \
 	vendor/huawei/hws7300u/proprietary/etc/audio_cal_bs300.acdb:system/etc/audio_cal_bs300.acdb \
 	vendor/huawei/hws7300u/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
@@ -230,7 +182,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/hws7300u/proprietary/bin/filebackup:system/bin/filebackup \
 	vendor/huawei/hws7300u/proprietary/bin/nl_listener:system/bin/nl_listener \
 	vendor/huawei/hws7300u/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
-	vendor/huawei/hws7300u/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/huawei/hws7300u/proprietary/bin/pcscd:system/bin/pcscd \
 	vendor/huawei/hws7300u/proprietary/bin/testpcsc:system/bin/testpcsc \
 	vendor/huawei/hws7300u/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
