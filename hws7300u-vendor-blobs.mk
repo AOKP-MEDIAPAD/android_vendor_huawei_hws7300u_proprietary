@@ -194,12 +194,9 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/hws7300u/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
 	vendor/huawei/hws7300u/proprietary/lib/libdsucsdappif_apis_fusion.so:system/lib/libdsucsdappif_apis_fusion.so \
 	vendor/huawei/hws7300u/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-	vendor/huawei/hws7300u/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
 	vendor/huawei/hws7300u/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
 	vendor/huawei/hws7300u/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-	vendor/huawei/hws7300u/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
 	vendor/huawei/hws7300u/proprietary/lib/libstagefright_soft_ffmpegaudiodec.so:system/lib/libstagefright_soft_ffmpegaudiodec.so \
-	vendor/huawei/hws7300u/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
 	vendor/huawei/hws7300u/proprietary/lib/libnode.so:system/lib/libnode.so \
 	vendor/huawei/hws7300u/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
 	vendor/huawei/hws7300u/proprietary/lib/libxml.so:system/lib/libxml.so \
@@ -226,10 +223,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/hws7300u/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
 	vendor/huawei/hws7300u/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
 	vendor/huawei/hws7300u/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
-	vendor/huawei/hws7300u/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
 	vendor/huawei/hws7300u/proprietary/lib/libping_lte_rpc.so:system/lib/libping_lte_rpc.so \
 	vendor/huawei/hws7300u/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so \
-	vendor/huawei/hws7300u/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
 	vendor/huawei/hws7300u/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
 	vendor/huawei/hws7300u/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
 	vendor/huawei/hws7300u/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
