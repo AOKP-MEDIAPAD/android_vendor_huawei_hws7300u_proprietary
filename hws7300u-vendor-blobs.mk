@@ -25,16 +25,6 @@ PRODUCT_COPY_FILES += \
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/rtecdc-bcm4319.bin:system/etc/wifi/rtecdc-bcm4319.bin \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/rtecdc-apsta-bcm4319.bin:system/etc/wifi/rtecdc-apsta-bcm4319.bin \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/rtecdc-apsta-bcm4329.bin:system/etc/wifi/rtecdc-apsta-bcm4329.bin \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/nvram-bcm4319.txt:system/etc/wifi/nvram-bcm4319.txt \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/rtecdc-mfgtest-bcm4329.bin:system/etc/wifi/rtecdc-mfgtest-bcm4329.bin \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/nvram-bcm4329.txt:system/etc/wifi/nvram-bcm4329.txt \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/config:system/etc/wifi/config \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/rtecdc-mfgtest-bcm4319.bin:system/etc/wifi/rtecdc-mfgtest-bcm4319.bin \
-	vendor/huawei/hws7300u/proprietary/etc/wifi/rtecdc-bcm4329.bin:system/etc/wifi/rtecdc-bcm4329.bin \
 	vendor/huawei/hws7300u/proprietary/media/charginganimation.zip:system/media/charginganimation.zip \
 	vendor/huawei/hws7300u/proprietary/bin/charginganimation:system/bin/charginganimation \
 	vendor/huawei/hws7300u/proprietary/bin/bootanimationex:system/bin/bootanimationex \
